@@ -41,11 +41,11 @@ const tweet = async () => {
 };
 
 
-const cronTweet = new CronJob("0 */2 * * *", async () => {
-    tweet();
-});
+//const cronTweet = new CronJob("0 */2 * * *", async () => {
+    //tweet();
+//});
 
-cronTweet.start();
+//cronTweet.start();
 
 // Optionally, you can also manually trigger a tweet if needed
-//tweet();
+tweet();
